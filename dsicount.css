@@ -1,0 +1,80 @@
+.main{
+    width: 90%;
+    margin: 0 auto;
+}
+ 
+.section1, .section2, .section3, .section4, .section5{
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.green{
+    color: green;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.red{
+    color: red;
+    margin-top:20px;
+    margin-bottom:40px;
+    margin-left: 20px;
+}
+.image1{
+    background-image: url(https://resizer.mail.ru/p/a8e64458-5189-5c6e-b27a-a048a615f296/AAAKQHRMPX1tbWAPgZUQnrZhT6i7KHzCrOTUUBPNhIoSn-KTVQo5OJw6lajFVwd00lW-tfEhvFbEqseZkA_Vjo-jWjk.jpg);
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: 100%; 
+}
+.image2{
+    background-image: url(https://ichip.ru/blobimgs/uploads/2019/02/computer-3246121_1280.jpg);
+    width: 100%;
+    height: 300px;
+    background-position:top;
+    background-size: cover; 
+}
+.image3{
+    background-image: url(https://ichip.ru/blobimgs/uploads/2019/02/notebook-1850613_1280.jpg);
+    width: 100%;
+    height: 300px;
+    background-position:center;
+    background-size: cover; 
+}
+.image4{
+    background-image: url(https://avatars.mds.yandex.net/get-marketcms/1776516/img-06b1d505-e285-4ecd-9aec-1c9f2f404cc5.jpeg/optimize );
+    width: 100%;
+    height: 300px;
+    background-position:top;
+    background-size: cover;
+}
+.image5{
+    background-image: url(https://funduk.ua/upload/product/19692/h_630_w_730/top-10-igrovykh-noutbukov.jpg );
+    width: 100%;
+    height: 300px;
+    background-position:top;
+    background-size: 100%;
+}
+.green, .text-lor, .red, h5{
+    margin-left: 20px; 
+}
+@media (max-width:716px){
+    .section1, .section2, .section3, .section4, .section5{
+        border-radius: 20px;
+        box-shadow: 0px 0px 10px 0px black;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .image1, .image2, .image3, .image4, .image5{
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        margin-bottom: 20px;
+    }
+    .red{
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+}
